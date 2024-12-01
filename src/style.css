@@ -27,3 +27,20 @@ body, html {
 #music-control:hover {
   background-color: black;
 }
+
+#github-link {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  padding: 10px 20px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#github-link:hover {
+  background-color: black;
+}
