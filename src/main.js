@@ -218,6 +218,10 @@ window.addEventListener("beforeunload", () => {
   music.pause();
 });
 
+const githubButton = document.getElementById("github-link");
+githubButton.addEventListener("click", () => {
+  window.open("https://github.com/BarathKumarpm/Interstellar_Docking_Threejs", "_blank"); // Replace with your GitHub URL
+});
 
 // Handle Window Resize
 window.addEventListener("resize", () => {
